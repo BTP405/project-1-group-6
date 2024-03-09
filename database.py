@@ -6,7 +6,7 @@ from models import Pet
 conn = mysql.connector.connect(
     host="localhost", #Local
     user="root", # Check by running "select user();" inside MySQL
-    password="vd24lovc", # Enter your own username
+    password="", # Enter your own username
     database="PetAdoptionSystem" # Name of Database
 )
 
