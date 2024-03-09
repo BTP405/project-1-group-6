@@ -3,11 +3,15 @@
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
+Title: Pet Adoption
+
+Description: A program that allows the user to view pets up for adoption. Its Purpose is to display pets and their info for users to select for adoption and also add pets. Admin can do more.
+
 ## 2. Installation
     - Dependencies: List any dependencies or prerequisites required to use your project.
     - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
+pip install mysql-connector-python
+
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
     - Configuration: Explain any configuration options or settings users might need to know about.
@@ -17,8 +21,10 @@
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
-    - Authors: List the authors or contributors of the project.
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
+Daniyil Rasov 
+John Nguyen 
+Michael Kleiman    
+        - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
 ## 8. Additional Sections (Optional)
