@@ -443,7 +443,7 @@ class Add_Pet:
       width=25,
       bg="green",
       fg="yellow",
-      command= lambda: self.return_menu(currentFrame)
+      command=self.return_menu
     )
 
     #error message
@@ -495,21 +495,22 @@ class Application:
         self.name_label.grid(row=0, column=0)
         self.name_entry.grid(row=0, column=1)
 
+        # Last Name
         self.lname_label = tk.Label(self.application_frame, text="Last Name:")
         self.lname_entry = tk.Entry(self.application_frame)
         self.lname_label.grid(row=1, column=0)
         self.lname_entry.grid(row=1, column=1)
-
+        # Adoption Date
         self.adoption_date_label = tk.Label(self.application_frame, text="Adoption Date:")
         self.adoption_date_entry = tk.Entry(self.application_frame)
         self.adoption_date_label.grid(row=2, column=0)
         self.adoption_date_entry.grid(row=2, column=1)
-
+        # Phone
         self.phone_label = tk.Label(self.application_frame, text="Phone:")
         self.phone_entry = tk.Entry(self.application_frame)
         self.phone_label.grid(row=3, column=0)
         self.phone_entry.grid(row=3, column=1)
-
+        # Address
         self.address_label = tk.Label(self.application_frame, text="Address:")
         self.address_entry = tk.Entry(self.application_frame)
         self.address_label.grid(row=4, column=0)
